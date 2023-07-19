@@ -59,7 +59,7 @@ const productos = [
     // Pistolas
     {
         id: "skin1",
-        titulo: "skin 1",
+        titulo: "skin de fusil",
         imagen: "./assets/skin1.webp",
         categoria: {
             nombre: "pistolas",
@@ -70,7 +70,7 @@ const productos = [
     },
     {
         id: "skin2",
-        titulo: "skin 2",
+        titulo: "skin de fusil",
         imagen: "./assets/skin2.png",
         categoria: {
             nombre: "pistolas",
@@ -81,7 +81,7 @@ const productos = [
     },
     {
         id: "skin3",
-        titulo: "skin 3",
+        titulo: "skin de fusil",
         imagen: "./assets/skin3.webp",
         categoria: {
             nombre: "pistolas",
@@ -94,7 +94,7 @@ const productos = [
     // Fusiles
     {
         id: "skin4",
-        titulo: "skin 4",
+        titulo: "skin de cuchillo",
         imagen: "./assets/skin4.png",
         categoria: {
             nombre: "fusiles",
@@ -105,7 +105,7 @@ const productos = [
     },
     {
         id: "skin5",
-        titulo: "skin 5",
+        titulo: "skin de cuchillo",
         imagen: "./assets/skin5.png",
         categoria: {
             nombre: "fusiles",
@@ -116,7 +116,7 @@ const productos = [
     },
     {
         id: "skin6",
-        titulo: "skin 6",
+        titulo: "skin de cuchillo",
         imagen: "./assets/skincs.webp",
         categoria: {
             nombre: "fusiles",
@@ -129,7 +129,7 @@ const productos = [
     // Cuchillos
     {
         id: "skin7",
-        titulo: "skin 7",
+        titulo: "skin de pistola",
         imagen: "./assets/skin7.png",
         categoria: {
             nombre: "cuchillos",
@@ -142,7 +142,7 @@ const productos = [
     },
     {
         id: "skin8",
-        titulo: "skin 8",
+        titulo: "skin de pistola",
         imagen: "./assets/skin8.png",
         categoria: {
             nombre: "cuchillos",
@@ -178,7 +178,7 @@ function cargarProductos(productosElegidos) {
             <img class="producto-imagen img-fluid" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-detalles">${producto.detalles}esta skin es y precio es de prueba</p>
+                <p class="producto-detalles">${producto.detalles}</p>
                 <p class="producto-precio">$${producto.precio}</p>
                 <button class="producto-agregar" id="${producto.id}">Comprar</button>
             </div>

@@ -65,7 +65,8 @@ const productos = [
             nombre: "pistolas",
             id: "pistolas"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 65
     },
     {
         id: "skin2",
@@ -75,7 +76,8 @@ const productos = [
             nombre: "pistolas",
             id: "pistolas"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 80
     },
     {
         id: "skin3",
@@ -85,7 +87,8 @@ const productos = [
             nombre: "pistolas",
             id: "pistolas"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 120
     },
 
     // Fusiles
@@ -97,7 +100,8 @@ const productos = [
             nombre: "fusiles",
             id: "fusiles"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 44
     },
     {
         id: "skin5",
@@ -107,7 +111,8 @@ const productos = [
             nombre: "fusiles",
             id: "fusiles"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 76
     },
     {
         id: "skin6",
@@ -117,7 +122,8 @@ const productos = [
             nombre: "fusiles",
             id: "fusiles"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 40
     },
 
     // Cuchillos
@@ -126,10 +132,13 @@ const productos = [
         titulo: "skin 7",
         imagen: "./assets/skin7.png",
         categoria: {
-            nombre: "Pantalones",
+            nombre: "cuchillos",
+            
             id: "cuchillos"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 90
+        
     },
     {
         id: "skin8",
@@ -139,7 +148,8 @@ const productos = [
             nombre: "cuchillos",
             id: "cuchillos"
         },
-        precio: 1000
+        detalles: "esta skin es y precio es de prueba",
+        precio: 23
     }
 ];
 console.log("Lista de productos:", productos);
@@ -168,6 +178,7 @@ function cargarProductos(productosElegidos) {
             <img class="producto-imagen img-fluid" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
+                <p class="producto-detalles">${producto.detalles}esta skin es y precio es de prueba</p>
                 <p class="producto-precio">$${producto.precio}</p>
                 <button class="producto-agregar" id="${producto.id}">Comprar</button>
             </div>
@@ -177,6 +188,7 @@ function cargarProductos(productosElegidos) {
     });
     console.log("Productos cargados en el contenedor.");
 }
+
 
 // Cargar los productos iniciales
 cargarProductos(productos);

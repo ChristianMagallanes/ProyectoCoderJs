@@ -82,6 +82,9 @@ body{
 .producto img{
     height: 100%;
 }
+.producto-detalles{
+    color: #fff;
+}
 .producto-agregar{
     font-size: 24px;
     border-radius: 10px;

@@ -1,2 +1,17 @@
-EL PROYECTO TENDRA UN COTIZADOR DE DOLAR, POR EL MOMENTO COTIZA EL DOLAR AL PRECIO URUGUAYO
-EL SITIO SERA PARA COMPRAR SKIN DE CSS GO
+tienda para comprar skin de cs go y de otros juegos, comenzare con la tematica
+de cs go, luego a medida que evolucione el stio implementare mas categorias para distintos
+juegos, el sitio tendra un cotizador de dolar a pesos (de momento de dolares a pesos uruguayos)
+
+
+// objetivos de las segunda pre entrega, "SKINS QUE SE PUEDAN FILTRAR DEPENDIENDO A QUE CATEGORIA PERTENECE, PISTOLAS, FUSIL, CUCHILLOS"
+"UNA PEQUEÑA SECCION EN LA PARTE SUPERIOR A LA DERECHA PARA PODER INGRESAR UNA CANTIDAD DE DOLARES Y DE LA CONVERCION A PESOS"
+"TENER LOS ESTILOS ALGO AVANZADOS PARA PODER ORGANIZARME MEJOR"
+EN ESTE PUNTO NO VOY A TERMINAR EL NAVBAR..
+
+//ERRORES A CORREJIR SEGUN LA CORRECCION DEL TUTOR:
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+//objetivos de la tercer pre entrega, "ARMAR EL CARRITO DE COMPRAS, (crear un sistema de registro y login básico utilizando la interfaz de almacenamiento localStorage)

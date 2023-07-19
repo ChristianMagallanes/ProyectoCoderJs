@@ -181,20 +181,31 @@ function cargarProductos(productosElegidos) {
 // Cargar los productos iniciales
 cargarProductos(productos);
 
-// Event listener para los botones de categoría
-botonesCategorias.forEach(boton => {
-    boton.addEventListener("click", (e) => {
-        // Remover la clase "active" de todos los botones de categoría
-        botonesCategorias.forEach(boton => boton.classList.remove("active"));
-        // Agregar la clase "active" al botón de categoría seleccionado
-        e.currentTarget.classList.add("active");
 
-        // Verificar si se ha seleccionado el botón "todos"
-        if (e.currentTarget.id === "todos") {
-            cargarProductos(productos);
-        } else {
-            const productosFiltrados = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-            cargarProductos(productosFiltrados);
-        }
-    });
-});
+
+// Función de orden superior que filtra productos
+function filtrarProductos(productos, filtro) {
+    return productos.filter(filtro);
+  }
+  
+
+  
+  // Event listener para los botones de categoría
+  botonesCategorias.forEach(boton => {
+      boton.addEventListener("click", (e) => {
+          // Remover la clase "active" de todos los botones de categoría
+          botonesCategorias.forEach(boton => boton.classList.remove("active"));
+          // Agregar la clase "active" al botón de categoría seleccionado
+          e.currentTarget.classList.add("active");
+  
+          // Función de filtro basada en el ID de la categoría seleccionada
+          function filtroCategoria(producto) {
+              return e.currentTarget.id === "todos" || producto.categoria.id === e.currentTarget.id;
+          }
+  
+          // Usar la función de orden superior filtrarProductos para obtener los productos filtrados
+          const productosFiltrados = filtrarProductos(productos, filtroCategoria);
+          cargarProductos(productosFiltrados);
+      });
+  });
+  

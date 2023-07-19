@@ -116,6 +116,8 @@ body{
 }
 .boton-categoria {
     background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
     width: 80%;
     list-style: none;
     font-size: 24px;

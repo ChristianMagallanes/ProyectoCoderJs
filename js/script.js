@@ -60,7 +60,7 @@ const productos = [
     {
         id: "skin1",
         titulo: "skin 1",
-        imagen: "../assets/skin1.webp",
+        imagen: "./assets/skin1.webp",
         categoria: {
             nombre: "pistolas",
             id: "pistolas"
@@ -70,7 +70,7 @@ const productos = [
     {
         id: "skin2",
         titulo: "skin 2",
-        imagen: "../assets/skin2.png",
+        imagen: "./assets/skin2.png",
         categoria: {
             nombre: "pistolas",
             id: "pistolas"
@@ -80,7 +80,7 @@ const productos = [
     {
         id: "skin3",
         titulo: "skin 3",
-        imagen: "../assets/skin3.webp",
+        imagen: "./assets/skin3.webp",
         categoria: {
             nombre: "pistolas",
             id: "pistolas"
@@ -92,7 +92,7 @@ const productos = [
     {
         id: "skin4",
         titulo: "skin 4",
-        imagen: "../assets/skin4.png",
+        imagen: "./assets/skin4.png",
         categoria: {
             nombre: "fusiles",
             id: "fusiles"
@@ -102,7 +102,7 @@ const productos = [
     {
         id: "skin5",
         titulo: "skin 5",
-        imagen: "../assets/skin5.png",
+        imagen: "./assets/skin5.png",
         categoria: {
             nombre: "fusiles",
             id: "fusiles"
@@ -112,7 +112,7 @@ const productos = [
     {
         id: "skin6",
         titulo: "skin 6",
-        imagen: "../assets/skin6.png",
+        imagen: "./assets/skin6.png",
         categoria: {
             nombre: "fusiles",
             id: "fusiles"
@@ -124,7 +124,7 @@ const productos = [
     {
         id: "skin7",
         titulo: "skin 7",
-        imagen: "../assets/skin7.png",
+        imagen: "./assets/skin7.png",
         categoria: {
             nombre: "Pantalones",
             id: "cuchillos"
@@ -134,7 +134,7 @@ const productos = [
     {
         id: "skin8",
         titulo: "skin 8",
-        imagen: "../assets/skin8.png",
+        imagen: "./assets/skin8.png",
         categoria: {
             nombre: "cuchillos",
             id: "cuchillos"

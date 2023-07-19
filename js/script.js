@@ -112,7 +112,7 @@ const productos = [
     {
         id: "skin6",
         titulo: "skin 6",
-        imagen: "./assets/skin6.png",
+        imagen: "./assets/skincs.webp",
         categoria: {
             nombre: "fusiles",
             id: "fusiles"
